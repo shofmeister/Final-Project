@@ -155,12 +155,14 @@ footer {
 	width: 100%;
 	background-color: red;
 	display: flex;
-	align-items: center;
+	justify-content: center;
 	
 }
 
 footer ul li{
 	 color: rgb(113,122,128);
 	 margin: 0;
+	 display: flex;
+	 justify-content: center;
 }
 
