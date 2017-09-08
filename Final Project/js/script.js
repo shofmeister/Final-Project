@@ -15,7 +15,7 @@ $(document).ready(function(){
 	};
 
 	function readLess(){
-		$(this).last().slideUp();
+		$(this).parent().slideUp();
 		$(".read-more").show();
 		event.preventDefault();
 	}
