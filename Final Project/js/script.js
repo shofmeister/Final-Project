@@ -9,7 +9,7 @@ $(document).ready(function(){
 
 	function readMore(){
 		$(this).next().slideDown();
-		$(".read-more").hide();
+		$(this).hide();
 		$(".read-less").show();
 		event.preventDefault();
 	};
